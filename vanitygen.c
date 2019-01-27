@@ -520,6 +520,7 @@ main(int argc, char **argv)
 					"MOG : Mogwai : M\n"
 					"MONA : Monacoin : M\n"
 					"MUE : Monetary Unit : 7\n"
+					"MXT : Martexcoin : M\n"
 					"MYRIAD : Myriadcoin : M\n"
 					"MZC : Mazacoin : M\n"
 					"NEET : NEETCOIN : N\n"
@@ -1573,6 +1574,14 @@ main(int argc, char **argv)
 					"Generating MNC Testnet Address\n");
 					addrtype = 111;
 					privtype = 239;
+					break;
+			}
+			else
+			if (strcmp(optarg, "MXT")== 0) {
+				fprintf(stderr,
+					"Generating MXT Address\n");
+					addrtype = 0;
+					privtype = 128;
 					break;
 			}
 			break;
