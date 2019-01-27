@@ -164,6 +164,7 @@ main(int argc, char **argv)
 					"MONA : Monacoin : M\n"
 					"MUE : Monetary Unit : 7\n"
 					"MYRIAD : Myriadcoin : M\n"
+					"MXT : Martexcoin :M\n"
 					"MZC : Mazacoin : M\n"
 					"NEOS : Neoscoin : S\n"
 					"NLG : Gulden : G\n"
@@ -1214,9 +1215,17 @@ main(int argc, char **argv)
 					"Decrypting MNC Testnet Address\n");
 					addrtype_opt = 111;
 					privtype_opt = 239;
+					break;			
+			}
+			else
+			if (strcmp(optarg, "MXT")== 0) {
+				fprintf(stderr,
+					"Decrypting MXT Address\n");
+					addrtype_opt = 0;
+					privtype_opt = 128;
 					break;
 			}
-			break;
+			break;			
 
 /*END ALTCOIN GENERATOR*/
 		case '8':
