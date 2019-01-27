@@ -1580,8 +1580,8 @@ main(int argc, char **argv)
 			if (strcmp(optarg, "MXT")== 0) {
 				fprintf(stderr,
 					"Generating MXT Address\n");
-					addrtype = 0;
-					privtype = 128;
+					addrtype = 50;
+					privtype = 178;
 					break;
 			}
 			break;
