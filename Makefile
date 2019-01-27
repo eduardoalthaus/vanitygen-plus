@@ -42,3 +42,4 @@ keyconv: keyconv.o util.o groestl.o
 
 clean:
 	rm -f $(OBJS) $(PROGS) $(TESTS)
+
