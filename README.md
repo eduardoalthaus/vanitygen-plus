@@ -63,7 +63,7 @@ A list of all the supported crypto coins will be output.
 Choose your coin from the list noting the ARGUMENT needed for the coin located in the left hand column.  
 For MXT it is simply MXT.  For Bitcoin it is BTC.  Etc...  
 
-**Now lets generate a MXT address with the prefix "bTEST":**  
+**Now lets generate a MXT address with the prefix "MTEST":**  
 Linux CPU: `./vanitygen -C MXT -o results.txt -i -k MTEST`  
 Linux GPU: `./oclvanitygen -C MXT -o results.txt -i -k MTEST`  
 Windows CPU: `vanitygen.exe -C MXT -o results.txt -i -k MTEST`  
