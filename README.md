@@ -63,24 +63,24 @@ A list of all the supported crypto coins will be output.
 Choose your coin from the list noting the ARGUMENT needed for the coin located in the left hand column.  
 For LBRY it is simply LBRY.  For Bitcoin it is BTC.  Etc...  
 
-**Now lets generate a LBRY address with the prefix "bTEST":**  
-Linux CPU: `./vanitygen -C LBRY -o results.txt -i -k bTEST`  
-Linux GPU: `./oclvanitygen -C LBRY -o results.txt -i -k bTEST`  
-Windows CPU: `vanitygen.exe -C LBRY -o results.txt -i -k bTEST`  
-Windows GPU: `oclvanitygen.exe -C LBRY -o results.txt -i -k bTEST`  
+**Now lets generate a MXT address with the prefix "bTEST":**  
+Linux CPU: `./vanitygen -C MXT -o results.txt -i -k MTEST`  
+Linux GPU: `./oclvanitygen -C MXT -o results.txt -i -k MTEST`  
+Windows CPU: `vanitygen.exe -C MXT -o results.txt -i -k MTEST`  
+Windows GPU: `oclvanitygen.exe -C MXT -o results.txt -i -k MTEST`  
 
- * `-C LBRY` : Chooses the LBRY coin  
+ * `-C MXT` : Chooses the MXT coin  
  * `-o results.txt` : saves the matches to results.txt  
  * `-i` : case-Insensitive(do not add this flag to match exact case)  
  * `-k` : keep going even after match is found(do not add this flag to stop after the first match)  
- * `bTEST` : the address you are searching for(LBRY addresses start with "b")  
+ * `MTEST` : the address you are searching for(MXT addresses start with "M")  
 
 Example output of above command:  
->Generating LBRY Address  
+>Generating MXT Address  
 >Difficulty: 4553521  
->LBRY Pattern: bTEST                                                                   
->LBRY Address: bTEST6jSVcid5MQAJBrGUR6MLDpdyb8oiQ  
->LBRY Privkey: wrRxctq3f7A1zkpyWoZRifRk5eAC2UM9idh83SPLhz6gAFfqdL  
+>LBRY Pattern: MTEST                                                                   
+>LBRY Address: MTEST45cCGf3fo6DrXhhQh9UE8PjK1sRQh  
+>LBRY Privkey: 6y2PRvvndh3sVAV6ck9uiRJfvNvV2FAvu8bdry2RZuXoPkkTxLw  
 
 **If you have dependency errors on Linux  
 or need instructions for compiling from source(Kaling Rolling/Linux) see link below:**  
@@ -257,6 +257,6 @@ Current List of Available Coins for Address Generation
 |ZOOM | Zoom coin | i  |
 |ZRC | Ziftrcoin | Z  |
 
-**If you found this repo useful, please consider a donation.  Thank You!**  
+**If you found this repo useful, do nothing. Thank You!**  
 
- * Donate Bitcoin: 1egacySQXJA8bLHnFhdQQjZBLW1gxSAjc  
+ * Donate Bitcoin: never!
