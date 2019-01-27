@@ -47,4 +47,3 @@ CFLAGS=-ggdb -O3 -Wall -Qunused-arguments $(INCPATHS) $(LIBPATHS)
 
 Compile binaries executing the following:
 `make all`
-
