@@ -61,7 +61,7 @@ Windows GPU: `oclvanitygen.exe -C LIST`
 A list of all the supported crypto coins will be output.  
 
 Choose your coin from the list noting the ARGUMENT needed for the coin located in the left hand column.  
-For LBRY it is simply LBRY.  For Bitcoin it is BTC.  Etc...  
+For MXT it is simply MXT.  For Bitcoin it is BTC.  Etc...  
 
 **Now lets generate a MXT address with the prefix "bTEST":**  
 Linux CPU: `./vanitygen -C MXT -o results.txt -i -k MTEST`  
