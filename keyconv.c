@@ -164,7 +164,7 @@ main(int argc, char **argv)
 					"MONA : Monacoin : M\n"
 					"MUE : Monetary Unit : 7\n"
 					"MYRIAD : Myriadcoin : M\n"
-					"MXT : Martexcoin :M\n"
+					"MXT : Martexcoin : M\n"
 					"MZC : Mazacoin : M\n"
 					"NEOS : Neoscoin : S\n"
 					"NLG : Gulden : G\n"
