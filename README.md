@@ -206,6 +206,7 @@ Current List of Available Coins for Address Generation
 |MOG | Mogwai | M  |
 |MONA | Monacoin | M  |
 |MUE | Monetary Unit | 7  |
+|MXT | Martexcoin | M  |
 |MYRIAD | Myriadcoin | M  |
 |MZC | Mazacoin | M  |
 |NEET | NEETCOIN | N  |
