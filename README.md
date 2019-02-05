@@ -78,9 +78,9 @@ Windows GPU: `oclvanitygen.exe -C MXT -o results.txt -i -k MTEST`
 Example output of above command:  
 >Generating MXT Address  
 >Difficulty: 4553521  
->LBRY Pattern: MTEST                                                                   
->LBRY Address: MTEST45cCGf3fo6DrXhhQh9UE8PjK1sRQh  
->LBRY Privkey: 6y2PRvvndh3sVAV6ck9uiRJfvNvV2FAvu8bdry2RZuXoPkkTxLw  
+>MXT Pattern: MTEST                                                                   
+>MXT Address: MTEST45cCGf3fo6DrXhhQh9UE8PjK1sRQh  
+>MXT Privkey: 6y2PRvvndh3sVAV6ck9uiRJfvNvV2FAvu8bdry2RZuXoPkkTxLw  
 
 **If you have dependency errors on Linux  
 or need instructions for compiling from source(Kaling Rolling/Linux) see link below:**  
